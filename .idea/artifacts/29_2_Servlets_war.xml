@@ -7,7 +7,7 @@
         <packaging>war</packaging>
       </options>
     </properties>
-    <root id="archive" name="Servlets-1.0-SNAPSHOT.war">
+    <root id="archive" name="demoserv-1.0-SNAPSHOT.war">
       <element id="artifact" artifact-name="29.2_Servlets:war exploded" />
     </root>
   </artifact>
