@@ -1,18 +1,14 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: Professional
-  Date: 18.08.2022
-  Time: 13:24
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%
+    String header = "Apache Tomcat";
+%>
+<!DOCTYPE html>
 <html>
 <head>
-    <title>Title</title>
+    <meta charset="UTF-8" />
+    <title>First JSP App</title>
 </head>
 <body>
-<h1>
-    Our text
-</h1>
+<h2><<%= header %></h2>
+<p>Today <%= new java.util.Date() %></p>
 </body>
 </html>
